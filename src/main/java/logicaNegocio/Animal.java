@@ -1,6 +1,7 @@
 package logicaNegocio;
 
 public abstract class Animal {
+    
     protected TipoHabitat habitat;
 
     public Animal(TipoHabitat habitat) {
