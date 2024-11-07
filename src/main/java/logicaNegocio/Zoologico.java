@@ -11,7 +11,7 @@ package logicaNegocio;
 public class Zoologico {
     public static void main(String[] args) {
         
-        Delfin delfin = new Delfin();
+        Animal delfin = new Delfin();
         Perro perro = new Perro();
         Leon leon= new Leon();
 

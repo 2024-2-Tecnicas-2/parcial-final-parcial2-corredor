@@ -1,8 +1,9 @@
 package logicaNegocio;
 
 public class Delfin extends Animal {
-    
-    public Delfin() {
+
+    public Delfin(TipoHabitat habitat) {
+        super(habitat);
         this.habitat = TipoHabitat.ACUATICO;
     }
 
