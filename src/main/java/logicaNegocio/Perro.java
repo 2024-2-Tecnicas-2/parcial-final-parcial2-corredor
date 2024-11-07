@@ -1,12 +1,8 @@
 package logicaNegocio;
 
 public class Perro extends Animal implements Domestico {
-    
 
-    public Perro(TipoHabitat habitat) {
-        super(habitat);
-        this.habitat = TipoHabitat.TERRESTRE;
-    }
+  
 
     @Override
     public String emitirSonido() {
